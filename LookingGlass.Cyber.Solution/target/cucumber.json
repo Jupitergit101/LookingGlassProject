@@ -1,0 +1,801 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-30T02:47:32.647Z",
+        "line": 4,
+        "name": "Homepage displayed and verify the Dresses menu option available",
+        "description": "",
+        "id": "dresses;homepage-displayed-and-verify-the-dresses-menu-option-available",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8236587201,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 266741748,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Dresses link is Displayed",
+            "match": {
+              "location": "StepDefinition.verify_dresses_link_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Additional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-30T02:47:41.159Z",
+        "line": 9,
+        "name": "user at the homepage and verify the Dresses menu option is click and navigate",
+        "description": "",
+        "id": "dresses;user-at-the-homepage-and-verify-the-dresses-menu-option-is-click-and-navigate",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5812687567,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Open the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2752986177,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Dresses menu option clicked and navigated to dresses homepage",
+            "match": {
+              "location": "StepDefinition.dresses_menu_option_clicked_and_navigate_to_dresses_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Additional"
+          }
+        ]
+      }
+    ],
+    "name": "Dresses",
+    "description": "",
+    "id": "dresses",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Dresses.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-30T02:47:49.732Z",
+        "line": 4,
+        "name": "Verify user homepage Displayed",
+        "description": "",
+        "id": "homepage-feature;verify-user-homepage-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6555746956,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190597397,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user at homepage",
+            "match": {
+              "location": "StepDefinition.user_at_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Additional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-30T02:47:56.486Z",
+        "line": 10,
+        "name": "Verify the title of the homepage",
+        "description": "",
+        "id": "homepage-feature;verify-the-title-of-the-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5942409483,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Open the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 204012006,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Logo Displayed",
+            "match": {
+              "location": "StepDefinition.verifyLogo()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Additional"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage feature",
+    "description": "",
+    "id": "homepage-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Homepage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-30T02:48:02.639Z",
+        "line": 6,
+        "name": "Verify the Text (ALREADY REGISTERED?) is present in the Login Area",
+        "description": "",
+        "id": "login;verify-the-text-(already-registered?)-is-present-in-the-login-area",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7399498798,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2003385265,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Signin option clicked and navigated to Login page",
+            "match": {
+              "location": "StepDefinition.signin_option_clicked_and_navigated_to_Login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 420159764,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "ALREADY REGISTERED present in the Login Area",
+            "match": {
+              "location": "StepDefinition.already_REGISTERED_present_in_the_Login_Area()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Additional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-30T02:48:12.482Z",
+        "line": 24,
+        "name": "Login with valid username with valid password",
+        "description": "",
+        "id": "login;\u003ctestcase\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7666548799,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Open the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2373832744,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Signin option clicked and navigated to Login page",
+            "match": {
+              "location": "StepDefinition.signin_option_clicked_and_navigated_to_Login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2905180303,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enter the username mailtohassan2@gmail.com and password hassan and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mailtohassan2@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "hassan",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinition.enter_the_username_and_password_and_click_on_login_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 279116067,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user successfully login and navigate to userhomepage",
+            "match": {
+              "location": "StepDefinition.user_successfully_login_and_navigate_to_userhomepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Additional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-30T02:48:25.711Z",
+        "line": 40,
+        "name": "Login with no email with valid password",
+        "description": "",
+        "id": "login;\u003ctestcases\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5800100874,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Open the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1713376326,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Signin option clicked and navigated to Login page",
+            "match": {
+              "location": "StepDefinition.signin_option_clicked_and_navigated_to_Login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2426581982,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "enter the username  and password hassan and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "hassan",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.enter_the_username_and_password_and_click_on_login_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 253026956,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "unsuccessful Login An email address required.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An email address required.",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.unsuccessful_Login_An_email_address_required(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Additional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-30T02:48:35.907Z",
+        "line": 41,
+        "name": "Login with valid email and no password",
+        "description": "",
+        "id": "login;\u003ctestcases\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5826149646,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Open the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1853772062,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Signin option clicked and navigated to Login page",
+            "match": {
+              "location": "StepDefinition.signin_option_clicked_and_navigated_to_Login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2516683529,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "enter the username mailtohassan2@gmail.com and password  and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mailtohassan2@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinition.enter_the_username_and_password_and_click_on_login_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 331588428,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "unsuccessful Login Password is required.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password is required.",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.unsuccessful_Login_An_email_address_required(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Additional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-30T02:48:46.439Z",
+        "line": 42,
+        "name": "Login with no email no password",
+        "description": "",
+        "id": "login;\u003ctestcases\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6601120510,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Open the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2216190809,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Signin option clicked and navigated to Login page",
+            "match": {
+              "location": "StepDefinition.signin_option_clicked_and_navigated_to_Login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2460566534,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "enter the username  and password  and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition.enter_the_username_and_password_and_click_on_login_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 284909709,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "unsuccessful Login An email address required.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An email address required.",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.unsuccessful_Login_An_email_address_required(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Additional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-30T02:48:58.004Z",
+        "line": 43,
+        "name": "Login with invalid username and valid password",
+        "description": "",
+        "id": "login;\u003ctestcases\u003e;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7092974224,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Open the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2551436495,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Signin option clicked and navigated to Login page",
+            "match": {
+              "location": "StepDefinition.signin_option_clicked_and_navigated_to_Login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2304661608,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "enter the username xxxxxxxxxxxxxx and password hassan and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xxxxxxxxxxxxxx",
+                  "offset": 19
+                },
+                {
+                  "val": "hassan",
+                  "offset": 47
+                }
+              ],
+              "location": "StepDefinition.enter_the_username_and_password_and_click_on_login_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 260159793,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "unsuccessful Login Invalid email address.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid email address.",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.unsuccessful_Login_An_email_address_required(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Additional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-30T02:49:10.216Z",
+        "line": 44,
+        "name": "Login with valid username and invalid password",
+        "description": "",
+        "id": "login;\u003ctestcases\u003e;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5380845798,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Open the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3354241463,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Signin option clicked and navigated to Login page",
+            "match": {
+              "location": "StepDefinition.signin_option_clicked_and_navigated_to_Login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2518237829,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "enter the username mailtohassan2@gmail.com and password xxxxxx and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mailtohassan2@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "xxxxxx",
+                  "offset": 56
+                }
+              ],
+              "location": "StepDefinition.enter_the_username_and_password_and_click_on_login_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329096389,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "unsuccessful Login Authentication failed.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.unsuccessful_Login_An_email_address_required(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Additional"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-30T02:49:21.801Z",
+        "line": 45,
+        "name": "Login with invalid username and invalid password",
+        "description": "",
+        "id": "login;\u003ctestcases\u003e;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6846942064,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Open the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2097368295,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Signin option clicked and navigated to Login page",
+            "match": {
+              "location": "StepDefinition.signin_option_clicked_and_navigated_to_Login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2478145773,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "enter the username $$$$$$$$$@gmail.com and password xxxxxx and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$$$$$$$$$@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "xxxxxx",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDefinition.enter_the_username_and_password_and_click_on_login_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 407334699,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "unsuccessful Login Authentication failed.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinition.unsuccessful_Login_An_email_address_required(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Additional"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
