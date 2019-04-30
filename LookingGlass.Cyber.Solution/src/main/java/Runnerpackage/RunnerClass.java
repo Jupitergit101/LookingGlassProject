@@ -18,7 +18,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 	               ,plugin = {"pretty","html:target/site/cucumber-pretty",
 	            		      "json:target/cucumber.json"}
                    ,strict = false
-                   ,tags = {"@Additional"}
+                   ,tags = {"@Additional,@Requested"}
 	               		
 		          )
 
