@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-05-04T04:48:06.623Z",
+        "start_timestamp": "2019-05-05T04:53:47.913Z",
         "line": 4,
         "name": "Homepage displayed and verify the Dresses menu option available",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11895982451,
+              "duration": 20263470072,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 960684715,
+              "duration": 950278209,
               "status": "passed"
             },
             "line": 7,
@@ -43,7 +43,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-05-04T04:48:19.495Z",
+        "start_timestamp": "2019-05-05T04:54:09.140Z",
         "line": 9,
         "name": "user at the homepage and verify the Dresses menu option is click and navigate",
         "description": "",
@@ -53,7 +53,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8333261745,
+              "duration": 13879814107,
               "status": "passed"
             },
             "line": 11,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 3224471046,
+              "duration": 4347665578,
               "status": "passed"
             },
             "line": 12,
@@ -83,7 +83,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-05-04T04:48:31.056Z",
+        "start_timestamp": "2019-05-05T04:54:27.374Z",
         "line": 15,
         "name": "All five dresses are listed on the summary page",
         "description": "",
@@ -93,7 +93,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8473416787,
+              "duration": 14744925607,
               "status": "passed"
             },
             "line": 17,
@@ -105,7 +105,7 @@
           },
           {
             "result": {
-              "duration": 2145519276,
+              "duration": 843955241,
               "status": "passed"
             },
             "line": 18,
@@ -117,7 +117,7 @@
           },
           {
             "result": {
-              "duration": 33026689266,
+              "duration": 43463621892,
               "status": "passed"
             },
             "line": 19,
@@ -129,7 +129,7 @@
           },
           {
             "result": {
-              "duration": 1760917576,
+              "duration": 517050219,
               "status": "passed"
             },
             "line": 20,
@@ -141,7 +141,7 @@
           },
           {
             "result": {
-              "duration": 902064728,
+              "duration": 3081094498,
               "status": "passed"
             },
             "line": 21,
@@ -159,7 +159,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-05-04T04:49:17.368Z",
+        "start_timestamp": "2019-05-05T04:55:30.032Z",
         "line": 24,
         "name": "The Total price of each dress is correct",
         "description": "",
@@ -169,7 +169,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8773576285,
+              "duration": 14164829300,
               "status": "passed"
             },
             "line": 26,
@@ -181,7 +181,7 @@
           },
           {
             "result": {
-              "duration": 1994046202,
+              "duration": 830997758,
               "status": "passed"
             },
             "line": 27,
@@ -193,7 +193,7 @@
           },
           {
             "result": {
-              "duration": 32728252465,
+              "duration": 43343765941,
               "status": "passed"
             },
             "line": 28,
@@ -205,7 +205,7 @@
           },
           {
             "result": {
-              "duration": 1650154062,
+              "duration": 497015309,
               "status": "passed"
             },
             "line": 29,
@@ -217,7 +217,7 @@
           },
           {
             "result": {
-              "duration": 1378259421,
+              "duration": 3346652941,
               "status": "passed"
             },
             "line": 30,
@@ -235,7 +235,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-05-04T04:50:03.895Z",
+        "start_timestamp": "2019-05-05T04:56:32.224Z",
         "line": 33,
         "name": "The Total product price is the sum of the total price of each dress",
         "description": "",
@@ -245,7 +245,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8268794013,
+              "duration": 13991698210,
               "status": "passed"
             },
             "line": 35,
@@ -257,7 +257,7 @@
           },
           {
             "result": {
-              "duration": 2352557323,
+              "duration": 749767938,
               "status": "passed"
             },
             "line": 36,
@@ -269,7 +269,7 @@
           },
           {
             "result": {
-              "duration": 32842321490,
+              "duration": 43019145433,
               "status": "passed"
             },
             "line": 37,
@@ -281,7 +281,7 @@
           },
           {
             "result": {
-              "duration": 1828515584,
+              "duration": 526636810,
               "status": "passed"
             },
             "line": 38,
@@ -293,7 +293,7 @@
           },
           {
             "result": {
-              "duration": 1300664676,
+              "duration": 3183536456,
               "status": "passed"
             },
             "line": 39,
@@ -322,7 +322,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-05-04T04:50:50.491Z",
+        "start_timestamp": "2019-05-05T04:57:33.701Z",
         "line": 4,
         "name": "Verify user homepage Displayed",
         "description": "",
@@ -332,7 +332,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7778648967,
+              "duration": 14461219542,
               "status": "passed"
             },
             "line": 6,
@@ -344,7 +344,7 @@
           },
           {
             "result": {
-              "duration": 857156379,
+              "duration": 538367649,
               "status": "passed"
             },
             "line": 7,
@@ -362,7 +362,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-05-04T04:50:59.130Z",
+        "start_timestamp": "2019-05-05T04:57:48.706Z",
         "line": 10,
         "name": "Verify the title of the homepage",
         "description": "",
@@ -372,7 +372,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7930144087,
+              "duration": 16366928086,
               "status": "passed"
             },
             "line": 12,
@@ -384,7 +384,7 @@
           },
           {
             "result": {
-              "duration": 923174614,
+              "duration": 804089163,
               "status": "passed"
             },
             "line": 13,
@@ -413,7 +413,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-05-04T04:51:07.986Z",
+        "start_timestamp": "2019-05-05T04:58:05.884Z",
         "line": 6,
         "name": "Verify the Text (ALREADY REGISTERED?) is present in the Login Area",
         "description": "",
@@ -423,7 +423,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9230777213,
+              "duration": 14393901682,
               "status": "passed"
             },
             "line": 8,
@@ -435,7 +435,7 @@
           },
           {
             "result": {
-              "duration": 1833208147,
+              "duration": 775112724,
               "status": "passed"
             },
             "line": 9,
@@ -447,7 +447,7 @@
           },
           {
             "result": {
-              "duration": 892891707,
+              "duration": 3021679684,
               "status": "passed"
             },
             "line": 10,
@@ -465,7 +465,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-05-04T04:51:19.947Z",
+        "start_timestamp": "2019-05-05T04:58:24.089Z",
         "line": 24,
         "name": "Login with valid username with valid password",
         "description": "",
@@ -475,7 +475,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8721934135,
+              "duration": 14137450119,
               "status": "passed"
             },
             "line": 16,
@@ -487,7 +487,7 @@
           },
           {
             "result": {
-              "duration": 1823019829,
+              "duration": 763127585,
               "status": "passed"
             },
             "line": 17,
@@ -499,7 +499,7 @@
           },
           {
             "result": {
-              "duration": 2487337870,
+              "duration": 6919238486,
               "status": "passed"
             },
             "line": 18,
@@ -521,7 +521,7 @@
           },
           {
             "result": {
-              "duration": 901917622,
+              "duration": 612085946,
               "status": "passed"
             },
             "line": 19,
@@ -539,7 +539,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-05-04T04:51:33.885Z",
+        "start_timestamp": "2019-05-05T04:58:46.526Z",
         "line": 40,
         "name": "Login with no email with valid password",
         "description": "",
@@ -549,7 +549,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8821806490,
+              "duration": 14261643602,
               "status": "passed"
             },
             "line": 32,
@@ -561,7 +561,7 @@
           },
           {
             "result": {
-              "duration": 1786572919,
+              "duration": 804201299,
               "status": "passed"
             },
             "line": 33,
@@ -573,7 +573,7 @@
           },
           {
             "result": {
-              "duration": 1722543085,
+              "duration": 5573031423,
               "status": "passed"
             },
             "line": 34,
@@ -595,7 +595,7 @@
           },
           {
             "result": {
-              "duration": 855551138,
+              "duration": 626997618,
               "status": "passed"
             },
             "line": 35,
@@ -619,7 +619,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-05-04T04:51:47.074Z",
+        "start_timestamp": "2019-05-05T04:59:07.797Z",
         "line": 41,
         "name": "Login with valid email and no password",
         "description": "",
@@ -629,7 +629,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8592383640,
+              "duration": 13700742903,
               "status": "passed"
             },
             "line": 32,
@@ -641,7 +641,7 @@
           },
           {
             "result": {
-              "duration": 2018726162,
+              "duration": 701478053,
               "status": "passed"
             },
             "line": 33,
@@ -653,7 +653,7 @@
           },
           {
             "result": {
-              "duration": 1755639250,
+              "duration": 5566320049,
               "status": "passed"
             },
             "line": 34,
@@ -675,7 +675,7 @@
           },
           {
             "result": {
-              "duration": 857285618,
+              "duration": 658318629,
               "status": "passed"
             },
             "line": 35,
@@ -699,7 +699,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-05-04T04:52:00.300Z",
+        "start_timestamp": "2019-05-05T04:59:28.431Z",
         "line": 42,
         "name": "Login with no email no password",
         "description": "",
@@ -709,7 +709,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9026708652,
+              "duration": 14289427229,
               "status": "passed"
             },
             "line": 32,
@@ -721,7 +721,7 @@
           },
           {
             "result": {
-              "duration": 1940934894,
+              "duration": 801402485,
               "status": "passed"
             },
             "line": 33,
@@ -733,7 +733,7 @@
           },
           {
             "result": {
-              "duration": 2217698854,
+              "duration": 4987115121,
               "status": "passed"
             },
             "line": 34,
@@ -755,7 +755,7 @@
           },
           {
             "result": {
-              "duration": 904485323,
+              "duration": 595060435,
               "status": "passed"
             },
             "line": 35,
@@ -779,7 +779,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-05-04T04:52:14.395Z",
+        "start_timestamp": "2019-05-05T04:59:49.110Z",
         "line": 43,
         "name": "Login with invalid username and valid password",
         "description": "",
@@ -789,7 +789,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8881898677,
+              "duration": 13754978223,
               "status": "passed"
             },
             "line": 32,
@@ -801,7 +801,7 @@
           },
           {
             "result": {
-              "duration": 2316818575,
+              "duration": 646889983,
               "status": "passed"
             },
             "line": 33,
@@ -813,7 +813,7 @@
           },
           {
             "result": {
-              "duration": 2081157218,
+              "duration": 5696517506,
               "status": "passed"
             },
             "line": 34,
@@ -835,7 +835,7 @@
           },
           {
             "result": {
-              "duration": 863530587,
+              "duration": 629290114,
               "status": "passed"
             },
             "line": 35,
@@ -859,7 +859,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-05-04T04:52:28.540Z",
+        "start_timestamp": "2019-05-05T05:00:09.844Z",
         "line": 44,
         "name": "Login with valid username and invalid password",
         "description": "",
@@ -869,7 +869,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8697084642,
+              "duration": 16322950648,
               "status": "passed"
             },
             "line": 32,
@@ -881,7 +881,7 @@
           },
           {
             "result": {
-              "duration": 2565334782,
+              "duration": 674620775,
               "status": "passed"
             },
             "line": 33,
@@ -893,7 +893,7 @@
           },
           {
             "result": {
-              "duration": 1970082007,
+              "duration": 5559982712,
               "status": "passed"
             },
             "line": 34,
@@ -915,7 +915,7 @@
           },
           {
             "result": {
-              "duration": 867411978,
+              "duration": 649022069,
               "status": "passed"
             },
             "line": 35,
@@ -939,7 +939,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-05-04T04:52:42.643Z",
+        "start_timestamp": "2019-05-05T05:00:33.055Z",
         "line": 45,
         "name": "Login with invalid username and invalid password",
         "description": "",
@@ -949,7 +949,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9986078157,
+              "duration": 13816792347,
               "status": "passed"
             },
             "line": 32,
@@ -961,7 +961,7 @@
           },
           {
             "result": {
-              "duration": 2333051158,
+              "duration": 611083194,
               "status": "passed"
             },
             "line": 33,
@@ -973,7 +973,7 @@
           },
           {
             "result": {
-              "duration": 1878341147,
+              "duration": 5822343978,
               "status": "passed"
             },
             "line": 34,
@@ -995,7 +995,7 @@
           },
           {
             "result": {
-              "duration": 881263119,
+              "duration": 712552428,
               "status": "passed"
             },
             "line": 35,
