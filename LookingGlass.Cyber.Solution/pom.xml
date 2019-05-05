@@ -22,7 +22,7 @@
             <version>2.19.1</version>
             <configuration>
               <suiteXmlFiles>
-                <suiteXmlfile>${SuiteFileName}</suiteXmlfile>
+                <suiteXmlfile>testng.xml</suiteXmlfile>
               </suiteXmlFiles>
             
             </configuration>
@@ -54,7 +54,7 @@
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-junit</artifactId>
     <version>4.3.0</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
 
     <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-core -->

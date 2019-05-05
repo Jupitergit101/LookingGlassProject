@@ -5,9 +5,11 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import TestUtilpackage.WebDriverListener;
@@ -38,6 +40,13 @@ public class BaseClass {
 		} else if (brows.equals("firefox")) {
 			
 			   WebDriverManager.firefoxdriver().setup();
+			   DesiredCapabilities capabilities = new DesiredCapabilities();
+
+			   capabilities = DesiredCapabilities.firefox();
+			   capabilities.setBrowserName("firefox");
+			   capabilities.setVersion("your firefox version");
+			   capabilities.setPlatform(Platform.WINDOWS);
+			   capabilities.setCapability("marionette", false);
 			   driver = new FirefoxDriver();
 		}
 		// Register the WebDriver Listener To generate the logs 

@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-04-30T02:47:32.647Z",
+        "start_timestamp": "2019-05-04T04:48:06.623Z",
         "line": 4,
         "name": "Homepage displayed and verify the Dresses menu option available",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8236587201,
+              "duration": 11895982451,
               "status": "passed"
             },
             "line": 6,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 266741748,
+              "duration": 960684715,
               "status": "passed"
             },
             "line": 7,
@@ -43,7 +43,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-30T02:47:41.159Z",
+        "start_timestamp": "2019-05-04T04:48:19.495Z",
         "line": 9,
         "name": "user at the homepage and verify the Dresses menu option is click and navigate",
         "description": "",
@@ -53,7 +53,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5812687567,
+              "duration": 8333261745,
               "status": "passed"
             },
             "line": 11,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 2752986177,
+              "duration": 3224471046,
               "status": "passed"
             },
             "line": 12,
@@ -81,6 +81,234 @@
             "name": "@Additional"
           }
         ]
+      },
+      {
+        "start_timestamp": "2019-05-04T04:48:31.056Z",
+        "line": 15,
+        "name": "All five dresses are listed on the summary page",
+        "description": "",
+        "id": "dresses;all-five-dresses-are-listed-on-the-summary-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8473416787,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Open the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2145519276,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Dresses menu option clicked and navigated to dresses page",
+            "match": {
+              "location": "StepDefinition.dresses_menu_option_clicked_and_navigated_to_dresses_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33026689266,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "select the five dresses",
+            "match": {
+              "location": "StepDefinition.select_the_five_dresses()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1760917576,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on Shopping cart and navigate to summary page",
+            "match": {
+              "location": "StepDefinition.click_on_Shopping_cart_and_navigate_to_summary_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 902064728,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "five dresses listed on summary page",
+            "match": {
+              "location": "StepDefinition.five_dresses_listed_on_summary_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Requested"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-05-04T04:49:17.368Z",
+        "line": 24,
+        "name": "The Total price of each dress is correct",
+        "description": "",
+        "id": "dresses;the-total-price-of-each-dress-is-correct",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8773576285,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Open the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1994046202,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Dresses menu option clicked and navigated to dresses page",
+            "match": {
+              "location": "StepDefinition.dresses_menu_option_clicked_and_navigated_to_dresses_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32728252465,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "select the five dresses",
+            "match": {
+              "location": "StepDefinition.select_the_five_dresses()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1650154062,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "click on Shopping cart and navigate to summary page",
+            "match": {
+              "location": "StepDefinition.click_on_Shopping_cart_and_navigate_to_summary_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1378259421,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Total each item Price matched",
+            "match": {
+              "location": "StepDefinition.total_Price_matched()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Requested"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-05-04T04:50:03.895Z",
+        "line": 33,
+        "name": "The Total product price is the sum of the total price of each dress",
+        "description": "",
+        "id": "dresses;the-total-product-price-is-the-sum-of-the-total-price-of-each-dress",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8268794013,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Open the browser and enter the url",
+            "match": {
+              "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2352557323,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Dresses menu option clicked and navigated to dresses page",
+            "match": {
+              "location": "StepDefinition.dresses_menu_option_clicked_and_navigated_to_dresses_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32842321490,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "select the five dresses",
+            "match": {
+              "location": "StepDefinition.select_the_five_dresses()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1828515584,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "click on Shopping cart and navigate to summary page",
+            "match": {
+              "location": "StepDefinition.click_on_Shopping_cart_and_navigate_to_summary_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1300664676,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "total product price is the sum of the total price of each address",
+            "match": {
+              "location": "StepDefinition.total_product_price_is_the_sum_of_the_total_price_of_each_address()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Requested"
+          }
+        ]
       }
     ],
     "name": "Dresses",
@@ -94,7 +322,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-04-30T02:47:49.732Z",
+        "start_timestamp": "2019-05-04T04:50:50.491Z",
         "line": 4,
         "name": "Verify user homepage Displayed",
         "description": "",
@@ -104,7 +332,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6555746956,
+              "duration": 7778648967,
               "status": "passed"
             },
             "line": 6,
@@ -116,7 +344,7 @@
           },
           {
             "result": {
-              "duration": 190597397,
+              "duration": 857156379,
               "status": "passed"
             },
             "line": 7,
@@ -134,7 +362,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-30T02:47:56.486Z",
+        "start_timestamp": "2019-05-04T04:50:59.130Z",
         "line": 10,
         "name": "Verify the title of the homepage",
         "description": "",
@@ -144,7 +372,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5942409483,
+              "duration": 7930144087,
               "status": "passed"
             },
             "line": 12,
@@ -156,7 +384,7 @@
           },
           {
             "result": {
-              "duration": 204012006,
+              "duration": 923174614,
               "status": "passed"
             },
             "line": 13,
@@ -185,7 +413,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-04-30T02:48:02.639Z",
+        "start_timestamp": "2019-05-04T04:51:07.986Z",
         "line": 6,
         "name": "Verify the Text (ALREADY REGISTERED?) is present in the Login Area",
         "description": "",
@@ -195,7 +423,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7399498798,
+              "duration": 9230777213,
               "status": "passed"
             },
             "line": 8,
@@ -207,7 +435,7 @@
           },
           {
             "result": {
-              "duration": 2003385265,
+              "duration": 1833208147,
               "status": "passed"
             },
             "line": 9,
@@ -219,7 +447,7 @@
           },
           {
             "result": {
-              "duration": 420159764,
+              "duration": 892891707,
               "status": "passed"
             },
             "line": 10,
@@ -237,7 +465,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-30T02:48:12.482Z",
+        "start_timestamp": "2019-05-04T04:51:19.947Z",
         "line": 24,
         "name": "Login with valid username with valid password",
         "description": "",
@@ -247,7 +475,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7666548799,
+              "duration": 8721934135,
               "status": "passed"
             },
             "line": 16,
@@ -259,7 +487,7 @@
           },
           {
             "result": {
-              "duration": 2373832744,
+              "duration": 1823019829,
               "status": "passed"
             },
             "line": 17,
@@ -271,7 +499,7 @@
           },
           {
             "result": {
-              "duration": 2905180303,
+              "duration": 2487337870,
               "status": "passed"
             },
             "line": 18,
@@ -293,7 +521,7 @@
           },
           {
             "result": {
-              "duration": 279116067,
+              "duration": 901917622,
               "status": "passed"
             },
             "line": 19,
@@ -311,7 +539,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-30T02:48:25.711Z",
+        "start_timestamp": "2019-05-04T04:51:33.885Z",
         "line": 40,
         "name": "Login with no email with valid password",
         "description": "",
@@ -321,7 +549,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5800100874,
+              "duration": 8821806490,
               "status": "passed"
             },
             "line": 32,
@@ -333,7 +561,7 @@
           },
           {
             "result": {
-              "duration": 1713376326,
+              "duration": 1786572919,
               "status": "passed"
             },
             "line": 33,
@@ -345,7 +573,7 @@
           },
           {
             "result": {
-              "duration": 2426581982,
+              "duration": 1722543085,
               "status": "passed"
             },
             "line": 34,
@@ -367,7 +595,7 @@
           },
           {
             "result": {
-              "duration": 253026956,
+              "duration": 855551138,
               "status": "passed"
             },
             "line": 35,
@@ -391,7 +619,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-30T02:48:35.907Z",
+        "start_timestamp": "2019-05-04T04:51:47.074Z",
         "line": 41,
         "name": "Login with valid email and no password",
         "description": "",
@@ -401,7 +629,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5826149646,
+              "duration": 8592383640,
               "status": "passed"
             },
             "line": 32,
@@ -413,7 +641,7 @@
           },
           {
             "result": {
-              "duration": 1853772062,
+              "duration": 2018726162,
               "status": "passed"
             },
             "line": 33,
@@ -425,7 +653,7 @@
           },
           {
             "result": {
-              "duration": 2516683529,
+              "duration": 1755639250,
               "status": "passed"
             },
             "line": 34,
@@ -447,7 +675,7 @@
           },
           {
             "result": {
-              "duration": 331588428,
+              "duration": 857285618,
               "status": "passed"
             },
             "line": 35,
@@ -471,7 +699,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-30T02:48:46.439Z",
+        "start_timestamp": "2019-05-04T04:52:00.300Z",
         "line": 42,
         "name": "Login with no email no password",
         "description": "",
@@ -481,7 +709,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6601120510,
+              "duration": 9026708652,
               "status": "passed"
             },
             "line": 32,
@@ -493,7 +721,7 @@
           },
           {
             "result": {
-              "duration": 2216190809,
+              "duration": 1940934894,
               "status": "passed"
             },
             "line": 33,
@@ -505,7 +733,7 @@
           },
           {
             "result": {
-              "duration": 2460566534,
+              "duration": 2217698854,
               "status": "passed"
             },
             "line": 34,
@@ -527,7 +755,7 @@
           },
           {
             "result": {
-              "duration": 284909709,
+              "duration": 904485323,
               "status": "passed"
             },
             "line": 35,
@@ -551,7 +779,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-30T02:48:58.004Z",
+        "start_timestamp": "2019-05-04T04:52:14.395Z",
         "line": 43,
         "name": "Login with invalid username and valid password",
         "description": "",
@@ -561,7 +789,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7092974224,
+              "duration": 8881898677,
               "status": "passed"
             },
             "line": 32,
@@ -573,7 +801,7 @@
           },
           {
             "result": {
-              "duration": 2551436495,
+              "duration": 2316818575,
               "status": "passed"
             },
             "line": 33,
@@ -585,7 +813,7 @@
           },
           {
             "result": {
-              "duration": 2304661608,
+              "duration": 2081157218,
               "status": "passed"
             },
             "line": 34,
@@ -607,7 +835,7 @@
           },
           {
             "result": {
-              "duration": 260159793,
+              "duration": 863530587,
               "status": "passed"
             },
             "line": 35,
@@ -631,7 +859,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-30T02:49:10.216Z",
+        "start_timestamp": "2019-05-04T04:52:28.540Z",
         "line": 44,
         "name": "Login with valid username and invalid password",
         "description": "",
@@ -641,7 +869,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5380845798,
+              "duration": 8697084642,
               "status": "passed"
             },
             "line": 32,
@@ -653,7 +881,7 @@
           },
           {
             "result": {
-              "duration": 3354241463,
+              "duration": 2565334782,
               "status": "passed"
             },
             "line": 33,
@@ -665,7 +893,7 @@
           },
           {
             "result": {
-              "duration": 2518237829,
+              "duration": 1970082007,
               "status": "passed"
             },
             "line": 34,
@@ -687,7 +915,7 @@
           },
           {
             "result": {
-              "duration": 329096389,
+              "duration": 867411978,
               "status": "passed"
             },
             "line": 35,
@@ -711,7 +939,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-04-30T02:49:21.801Z",
+        "start_timestamp": "2019-05-04T04:52:42.643Z",
         "line": 45,
         "name": "Login with invalid username and invalid password",
         "description": "",
@@ -721,7 +949,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6846942064,
+              "duration": 9986078157,
               "status": "passed"
             },
             "line": 32,
@@ -733,7 +961,7 @@
           },
           {
             "result": {
-              "duration": 2097368295,
+              "duration": 2333051158,
               "status": "passed"
             },
             "line": 33,
@@ -745,7 +973,7 @@
           },
           {
             "result": {
-              "duration": 2478145773,
+              "duration": 1878341147,
               "status": "passed"
             },
             "line": 34,
@@ -767,7 +995,7 @@
           },
           {
             "result": {
-              "duration": 407334699,
+              "duration": 881263119,
               "status": "passed"
             },
             "line": 35,

@@ -26,7 +26,7 @@ Project Instruction
 
   
 
-           There is anything else need to know about the configuration please don't hesitate to contact me.
+        Note: There is anything else need to know about the configuration please don't hesitate to contact me.
 
 
 

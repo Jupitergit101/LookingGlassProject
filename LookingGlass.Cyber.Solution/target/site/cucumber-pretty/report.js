@@ -64,6 +64,186 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "All five dresses are listed on the summary page",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Requested"
+    }
+  ]
+});
+formatter.step({
+  "name": "Open the browser and enter the url",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Dresses menu option clicked and navigated to dresses page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinition.dresses_menu_option_clicked_and_navigated_to_dresses_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "select the five dresses",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinition.select_the_five_dresses()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on Shopping cart and navigate to summary page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinition.click_on_Shopping_cart_and_navigate_to_summary_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "five dresses listed on summary page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinition.five_dresses_listed_on_summary_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "The Total price of each dress is correct",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Requested"
+    }
+  ]
+});
+formatter.step({
+  "name": "Open the browser and enter the url",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Dresses menu option clicked and navigated to dresses page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinition.dresses_menu_option_clicked_and_navigated_to_dresses_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "select the five dresses",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinition.select_the_five_dresses()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on Shopping cart and navigate to summary page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinition.click_on_Shopping_cart_and_navigate_to_summary_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Total each item Price matched",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinition.total_Price_matched()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "The Total product price is the sum of the total price of each dress",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@Requested"
+    }
+  ]
+});
+formatter.step({
+  "name": "Open the browser and enter the url",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "StepDefinition.open_the_browser_and_enter_the_url()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Dresses menu option clicked and navigated to dresses page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "StepDefinition.dresses_menu_option_clicked_and_navigated_to_dresses_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "select the five dresses",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinition.select_the_five_dresses()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "click on Shopping cart and navigate to summary page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "StepDefinition.click_on_Shopping_cart_and_navigate_to_summary_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "total product price is the sum of the total price of each address",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinition.total_product_price_is_the_sum_of_the_total_price_of_each_address()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.uri("file:src/test/resources/Features/Homepage.feature");
 formatter.feature({
   "name": "Homepage feature",
